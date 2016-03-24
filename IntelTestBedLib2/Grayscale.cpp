@@ -1,4 +1,5 @@
 #include "Grayscale.h"
+#include <iostream>
 
 void Grayscale::DoIt(rgb* input, rgb* output, int width, int height, bool gpu)
 {
