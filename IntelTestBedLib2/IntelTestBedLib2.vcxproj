@@ -118,11 +118,16 @@
       <WarningLevel>Level3</WarningLevel>
       <PrecompiledHeader>
       </PrecompiledHeader>
-      <Optimization>MaxSpeed</Optimization>
+      <Optimization>MaxSpeedHighLevel</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <InterproceduralOptimization>SingleFile</InterproceduralOptimization>
+      <UseIntelOptimizedHeaders>false</UseIntelOptimizedHeaders>
+      <UseProcessorExtensions>None</UseProcessorExtensions>
+      <GPUArch>Haswell</GPUArch>
+      <OffloadOpenMPTarget>GFXTarget</OffloadOpenMPTarget>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -132,6 +137,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Grayscale.h" />
+    <ClInclude Include="RGB.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Grayscale.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

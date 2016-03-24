@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntelTestBed2", "IntelTestBed2\IntelTestBed2.vcxproj", "{5926D703-3D8D-4D4F-95D7-42953F371B38}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0380D1EE-194B-4473-A1D3-53A947F3637C} = {0380D1EE-194B-4473-A1D3-53A947F3637C}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntelTestBedLib2", "IntelTestBedLib2\IntelTestBedLib2.vcxproj", "{0380D1EE-194B-4473-A1D3-53A947F3637C}"
 EndProject

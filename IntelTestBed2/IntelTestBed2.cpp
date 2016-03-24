@@ -2,32 +2,28 @@
 //
 
 #include "stdafx.h"
-#include<gfx/gfx_rt.h>
-#include "cilk/cilk.h"
 
-struct rgb
-{
-    unsigned char red;
-    unsigned char green; 
-    unsigned char blue; 
-};
+#include <iostream>
+#define WIN32_LEAN_AND_MEAN
+#include <Windows.h>
+#include <fstream>
+
+#include "RGB.h"
+#include "Grayscale.h"
 
 int main()
 {
-    rgb* originalImage = new rgb[320 * 240]; 
-    rgb* modifiedImage = new rgb[320 * 240]; 
+    int width = 512;
+    int height = 424; 
 
-#pragma offload target(gfx) pin(originalImage,modifiedImage:length(320*240*sizeof(rgb)))
-    cilk_for(int c = 0; c < 320 * 240; c++)
-    {
-        float temp;
-        temp = (0.393f * originalImage[c].red) + (0.769f * originalImage[c].green) + (0.189f * originalImage[c].blue);
-        modifiedImage[c].red = (temp > 255.f) ? 255.f : temp;
-        temp = (0.349f * originalImage[c].red) + (0.686f * originalImage[c].green) + (0.168f * originalImage[c].blue);
-        modifiedImage[c].green = (temp > 255.f) ? 255.f : temp;
-        temp = (0.272f * originalImage[c].red) + (0.534f * originalImage[c].green) + (0.131f * originalImage[c].blue);
-        modifiedImage[c].blue = (temp > 255.f) ? 255.f : temp;
-    }
+    rgb* originalImage = (rgb*)_aligned_malloc(sizeof(rgb) * width * height, 1024);
+    rgb* modifiedImage = (rgb*)_aligned_malloc(sizeof(rgb) * width * height, 1024);
+
+    DWORD dwStart = ::GetTickCount();
+
+    Grayscale::DoIt(originalImage, modifiedImage, width, height, true);
+
+    std::cout << (::GetTickCount() - dwStart) << std::endl;
 
     return 0;
 }
