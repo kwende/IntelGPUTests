@@ -16,7 +16,7 @@
     <localhost>launch</localhost>
    </selected_workload>
    <result_dir>
-    <localhost>C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\My Amplifier XE Results - IntelTestBed2</localhost>
+    <localhost>C:\repos\IntelGPUTests\IntelTestBed2\My Amplifier XE Results - IntelTestBed2</localhost>
    </result_dir>
    <workloads>
     <localhost>
@@ -26,31 +26,31 @@
        <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
        <attach.process_name>IntelTestBed2.exe</attach.process_name>
        <attach.pid type="null"></attach.pid>
-       <result_directory.path>C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\My Amplifier XE Results - IntelTestBed2\r@@@{at}</result_directory.path>
+       <result_directory.path>C:\repos\IntelGPUTests\IntelTestBed2\My Amplifier XE Results - IntelTestBed2\r@@@{at}</result_directory.path>
        <search_directories>
         <item>
-         <value>sym=C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\x64\Release</value>
+         <value>sym=C:\repos\IntelGPUTests\x64\Release</value>
         </item>
         <item>
-         <value>sym=C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2</value>
+         <value>sym=C:\repos\IntelGPUTests</value>
         </item>
         <item>
-         <value>bin=C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\x64\Release</value>
+         <value>bin=C:\repos\IntelGPUTests\x64\Release</value>
         </item>
         <item>
-         <value>bin=C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2</value>
+         <value>bin=C:\repos\IntelGPUTests</value>
         </item>
         <item>
-         <value>bin=C:/Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\$(VC_ExecutablePath_x64)</value>
+         <value>bin=C:/repos\IntelGPUTests\IntelTestBed2\$(VC_ExecutablePath_x64)</value>
         </item>
         <item>
-         <value>bin=C:/Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\$(WindowsSDK_ExecutablePath)</value>
+         <value>bin=C:/repos\IntelGPUTests\IntelTestBed2\$(WindowsSDK_ExecutablePath)</value>
         </item>
         <item>
-         <value>bin=C:/Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\$(VS_ExecutablePath)</value>
+         <value>bin=C:/repos\IntelGPUTests\IntelTestBed2\$(VS_ExecutablePath)</value>
         </item>
         <item>
-         <value>bin=C:/Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\$(MSBuild_ExecutablePath)</value>
+         <value>bin=C:/repos\IntelGPUTests\IntelTestBed2\$(MSBuild_ExecutablePath)</value>
         </item>
         <item>
          <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop</value>
@@ -273,37 +273,37 @@
       <workload>
        <targetName>launch</targetName>
        <launch_app.inherit_sys_environment type="bool">true</launch_app.inherit_sys_environment>
-       <launch_app.app_to_launch>C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\x64\Release\IntelTestBed2.exe</launch_app.app_to_launch>
-       <launch_app.working_folder>C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2</launch_app.working_folder>
+       <launch_app.app_to_launch>C:\repos\IntelGPUTests\x64\Release\IntelTestBed2.exe</launch_app.app_to_launch>
+       <launch_app.working_folder>C:\repos\IntelGPUTests\IntelTestBed2</launch_app.working_folder>
        <launch_app.app_parameters></launch_app.app_parameters>
        <launch_app.environment></launch_app.environment>
        <launch_app.environment_prepend>PATH=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016\windows\redist\intel64\compiler;</launch_app.environment_prepend>
        <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
-       <result_directory.path>C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\My Amplifier XE Results - IntelTestBed2\r@@@{at}</result_directory.path>
+       <result_directory.path>C:\repos\IntelGPUTests\IntelTestBed2\My Amplifier XE Results - IntelTestBed2\r@@@{at}</result_directory.path>
        <search_directories>
         <item>
-         <value>sym=C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\x64\Release</value>
+         <value>sym=C:\repos\IntelGPUTests\x64\Release</value>
         </item>
         <item>
-         <value>sym=C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2</value>
+         <value>sym=C:\repos\IntelGPUTests</value>
         </item>
         <item>
-         <value>bin=C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\x64\Release</value>
+         <value>bin=C:\repos\IntelGPUTests\x64\Release</value>
         </item>
         <item>
-         <value>bin=C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2</value>
+         <value>bin=C:\repos\IntelGPUTests</value>
         </item>
         <item>
-         <value>bin=C:/Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\$(VC_ExecutablePath_x64)</value>
+         <value>bin=C:/repos\IntelGPUTests\IntelTestBed2\$(VC_ExecutablePath_x64)</value>
         </item>
         <item>
-         <value>bin=C:/Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\$(WindowsSDK_ExecutablePath)</value>
+         <value>bin=C:/repos\IntelGPUTests\IntelTestBed2\$(WindowsSDK_ExecutablePath)</value>
         </item>
         <item>
-         <value>bin=C:/Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\$(VS_ExecutablePath)</value>
+         <value>bin=C:/repos\IntelGPUTests\IntelTestBed2\$(VS_ExecutablePath)</value>
         </item>
         <item>
-         <value>bin=C:/Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\$(MSBuild_ExecutablePath)</value>
+         <value>bin=C:/repos\IntelGPUTests\IntelTestBed2\$(MSBuild_ExecutablePath)</value>
         </item>
         <item>
          <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop</value>
@@ -530,31 +530,31 @@
       <workload>
        <targetName>system</targetName>
        <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
-       <result_directory.path>C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\My Amplifier XE Results - IntelTestBed2\r@@@{at}</result_directory.path>
+       <result_directory.path>C:\repos\IntelGPUTests\IntelTestBed2\My Amplifier XE Results - IntelTestBed2\r@@@{at}</result_directory.path>
        <search_directories>
         <item>
-         <value>sym=C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\x64\Release</value>
+         <value>sym=C:\repos\IntelGPUTests\x64\Release</value>
         </item>
         <item>
-         <value>sym=C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2</value>
+         <value>sym=C:\repos\IntelGPUTests</value>
         </item>
         <item>
-         <value>bin=C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\x64\Release</value>
+         <value>bin=C:\repos\IntelGPUTests\x64\Release</value>
         </item>
         <item>
-         <value>bin=C:\Users\brush\documents\visual studio 2015\Projects\IntelTestBed2</value>
+         <value>bin=C:\repos\IntelGPUTests</value>
         </item>
         <item>
-         <value>bin=C:/Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\$(VC_ExecutablePath_x64)</value>
+         <value>bin=C:/repos\IntelGPUTests\IntelTestBed2\$(VC_ExecutablePath_x64)</value>
         </item>
         <item>
-         <value>bin=C:/Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\$(WindowsSDK_ExecutablePath)</value>
+         <value>bin=C:/repos\IntelGPUTests\IntelTestBed2\$(WindowsSDK_ExecutablePath)</value>
         </item>
         <item>
-         <value>bin=C:/Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\$(VS_ExecutablePath)</value>
+         <value>bin=C:/repos\IntelGPUTests\IntelTestBed2\$(VS_ExecutablePath)</value>
         </item>
         <item>
-         <value>bin=C:/Users\brush\documents\visual studio 2015\Projects\IntelTestBed2\IntelTestBed2\$(MSBuild_ExecutablePath)</value>
+         <value>bin=C:/repos\IntelGPUTests\IntelTestBed2\$(MSBuild_ExecutablePath)</value>
         </item>
         <item>
          <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop</value>

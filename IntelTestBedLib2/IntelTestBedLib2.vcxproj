@@ -126,7 +126,7 @@
       <InterproceduralOptimization>SingleFile</InterproceduralOptimization>
       <UseIntelOptimizedHeaders>false</UseIntelOptimizedHeaders>
       <UseProcessorExtensions>None</UseProcessorExtensions>
-      <GPUArch>Haswell</GPUArch>
+      <GPUArch>Default</GPUArch>
       <OffloadOpenMPTarget>GFXTarget</OffloadOpenMPTarget>
     </ClCompile>
     <Link>
